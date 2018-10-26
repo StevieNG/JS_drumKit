@@ -73,6 +73,7 @@ onkeydown = function keycode(){
         setTimeout(function(){  hihat.classList.remove("style"); }, 100);
     }
 
+    
     else if (key=='d'){
         kickSound.play();
         kick.classList.add("style");
