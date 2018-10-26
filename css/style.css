@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Acme');
+@import url('https://fonts.googleapis.com/css?family=Acme|Comfortaa');
+
+
+
+*{ color: white;
+  
+box-sizing: border-box;  }
+
+html{
+    
+    background-image: url("../images/mrmen5.png");
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;;
+   
+
+
+}
+.header{
+text-align: center;
+padding:20px 0;
+
+font-family: 'Acme', sans-serif;
+
+}
+
+h1{
+    padding:30px;
+    font-size: 50px;
+}
+
+h2{
+    padding:20px;
+    font-size: 30px;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    text-align: center;
+
+}
+
+button{
+    color:black;
+    height: 100px;
+    width: 100px;
+    /* padding:20px; */
+    border: 2px solid black;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+
+    font-size: 17px;
+
+}
+
+button:hover{
+
+    background-color: rgb(206, 198, 198);
+    transform:scale(1.2);
+    border-radius: 30px;
+
+}
+
+button:active{
+
+    background-color: rgb(216, 41, 41);
+    transform:scale(1.2);
+    border-radius: 30px;
+
+}
+
+.style{
+    background-color: rgb(206, 198, 198);
+    transform:scale(1.2);
+}
