@@ -68,6 +68,7 @@ onkeydown = function keycode(){
     }
 
     else if (key=='s'){
+        hihatSound.currenttime=0;
         hihatSound.play();
         hihat.classList.add("style");
         setTimeout(function(){  hihat.classList.remove("style"); }, 100);
@@ -75,24 +76,28 @@ onkeydown = function keycode(){
 
     
     else if (key=='d'){
+        kickSound.currenttime=0;
         kickSound.play();
         kick.classList.add("style");
         setTimeout(function(){  kick.classList.remove("style"); }, 100);
     }
 
     else if (key=='f'){
+        openhatSound.currenttime=0;
         openhatSound.play();
         openhat.classList.add("style");
         setTimeout(function(){  openhat.classList.remove("style"); }, 100);
     }
 
     else if (key=='g'){
+        boomSound.currenttime=0;
         boomSound.play();
         boom.classList.add("style");
         setTimeout(function(){  boom.classList.remove("style"); }, 100);
     }
 
     else if (key=='h'){
+        rideSound.currenttime=0;
         rideSound.play();
         ride.classList.add("style");
         setTimeout(function(){  ride.classList.remove("style"); }, 100);
@@ -100,18 +105,21 @@ onkeydown = function keycode(){
 
 
     else if (key=='j'){
+        snareSound.currenttime=0;
         snareSound.play();
         snare.classList.add("style");
         setTimeout(function(){  snare.classList.remove("style"); }, 100);
     }
 
     else if (key=='k'){
+        tomSound.currenttime=0;
         tomSound.play();
         tom.classList.add("style");
         setTimeout(function(){  tom.classList.remove("style"); }, 100);
     }
 
     else if (key=='l'){
+        tinkSound.currenttime=0;
         tinkSound.play();
         tink.classList.add("style");
         setTimeout(function(){  tink.classList.remove("style"); }, 100);
