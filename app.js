@@ -53,10 +53,6 @@ tink.addEventListener('click',() =>{
 
 
 
-
-
-
-
 onkeydown = function keycode(){
 
     let key =event.key;
